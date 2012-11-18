@@ -1,0 +1,16 @@
+{
+  "name": "priority-queue",
+  "version": "0.0.1",
+  "description": "a priority queue implementation",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script",
+    "build": "coffee -o lib/ -c src/"
+  },
+  "repository": "",
+  "author": "Mirko Kiefer <mail@mirkokiefer.com>",
+  "license": "BSD"
+}
